@@ -20,10 +20,12 @@ function main(){
       el.addClass('odd');
     }
     el.append('<a></a>');
-    $('body div:nth-child(' + x + ') a')
-      .attr('href', '#ws-' + (x + 1))
-      .append('<i></i>');
-    $('body div:nth-child(' + x + ') a i').addClass('ion-chevron-down');
+    if (x < length) {
+      $('body div:nth-child(' + x + ') a')
+        .attr('href', '#ws-' + (x + 1))
+        .append('<i></i>');
+      $('body div:nth-child(' + x + ') a i').addClass('ion-chevron-down');
+    }
 
   }
 
