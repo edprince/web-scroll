@@ -4,6 +4,7 @@ Modular project that allows easy Jquery smooth scrolling down a page
 Links
 =====
 CSS > https://raw.githubusercontent.com/edprince/web-scroll/master/styles/main.css
+
 JS > https://raw.githubusercontent.com/edprince/web-scroll/master/scripts/app.js
 
 Usage
