@@ -38,8 +38,21 @@ i {
   color: #242329;
 }
 
-#ws-1, #ws-3 {
+.odd {
   background-color: #242329;
   color: white;
   box-shadow: 0px 0px 20px black;
+}
+
+.even {
+  background-color white;
+  color: #242329;
+}
+
+.odd i {
+  color: #242329;
+}
+
+.even i {
+  color: white;
 }
