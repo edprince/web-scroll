@@ -6,12 +6,12 @@ $(document).ready(function(){
 
 function main(){
   var id = $('.ws').id;
-  var evenDivs = $('body div:nth-child(even)');
-  var oddDivs = $('body div:nth-child(odd)');
-  var length = $('body div').length;
+  var evenDivs = $('.ws-wrapper div:nth-child(even)');
+  var oddDivs = $('.ws-wrapper div:nth-child(odd)');
+  var length = $('.ws-wrapper div').length;
 
   for (x = 1; x <= length; x ++) {
-    var el = $('body div:nth-child(' + x + ')');
+    var el = $('.ws-wrapper div:nth-child(' + x + ')');
     el.attr('id', 'ws-' + x);
     if (x % 2 === 0) {
       //Even div, assign class
